@@ -16,3 +16,12 @@ Este repositório contém uma aplicação Java web que opera um CRUD (Create, Re
 - MySQL Connector/J
 - Apache Tomcat
 - MySQL
+
+## Arquitetura MVC (Model-View-Controller)
+Este projeto segue o padrão de arquitetura Model-View-Controller (MVC). Abaixo está uma visão geral de como esse padrão é aplicado neste projeto:
+
+#### Model: As classes de modelo são responsáveis por representar os dados e a lógica de negócios. No contexto deste projeto, elas lidam com a interação com o banco de dados e a manipulação dos dados provenientes dos dispositivos IoT.
+
+#### View: As camadas de visualização são representadas por páginas JSP, HTML, CSS e JavaScript que exibem as informações e interagem com os usuários. Elas são responsáveis pela apresentação dos dados e interação com o cliente.
+
+#### Controller: Os controladores, implementados como Servlets, gerenciam as solicitações dos usuários, interagem com o modelo e selecionam as visualizações apropriadas para enviar ao cliente. Eles controlam o fluxo de dados e a lógica por trás das operações do CRUD.
