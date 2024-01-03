@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+/**
+ *
+ * @author joaof
+ */
+
+body {
+    font-size: 1em;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #708090; 
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    font-family: Arial, sans-serif;
+}
+
+
+.Botao1 {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f57c00;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}  
+
+.Botao2 {
+    background-color: #b51213;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}  
+
+
+.Caixa1 {
+    width: 320px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #f57c00;
+    border-radius: 5px;
+}
+
+.Caixa2 {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #f57c00;
+    border-radius: 5px;
+}
+
+#caixa3 {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ff0000;
+}
+
+#tabela {
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+#tabela th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    background-color: #4682B4;
+    color: white;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#ocorrencia {
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    margin-top: 20px; 
+}
+
+label {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.Botao1 {
+    color: #fff;
+    text-decoration: none;
+    background-color: #4682B4;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.9em;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#inicio{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+#fim{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.BotaoPesquisar {
+    background-color: #4682B4; 
+    border: 20px;
+    width: auto; 
+    padding: 8px 12px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+#idImpacto{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 12px;
+    width: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
